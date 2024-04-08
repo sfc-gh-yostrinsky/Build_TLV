@@ -6,6 +6,6 @@ USE SCHEMA RAW_LAKE;
 CREATE ICEBERG TABLE stock_prices_hist
   EXTERNAL_VOLUME='EXT_VOL_BUILD_TLV'
   CATALOG='CAT_INTEGRATION_OBJ_STORE'
-  METADATA_FILE_PATH='stock_prices/metadata/v1711433511541000000.metadata.json';  
+  METADATA_FILE_PATH='stock_prices/metadata/v1712560120796000000.metadata.json';  
 
 SELECT COUNT (*) from stock_prices_hist;
